@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""Async waits for a random delay between 0 and max_delay seconds."""
 import asyncio
 from typing import List
 from random import uniform
