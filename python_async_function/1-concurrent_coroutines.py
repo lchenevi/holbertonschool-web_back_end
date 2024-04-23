@@ -16,8 +16,3 @@ async def wait_n(n: int, max_delay: int) -> List[float]:
     """Runs wait_random coroutine n times with the specified max_delay."""
     tasks = [wait_random(max_delay) for _ in range(n)]
     return await asyncio.gather(*tasks)
-
-# Example usage:
-# print(asyncio.run(wait_n(5, 5)))
-# print(asyncio.run(wait_n(10, 7)))
-# print(asyncio.run(wait_n(10, 0)))
