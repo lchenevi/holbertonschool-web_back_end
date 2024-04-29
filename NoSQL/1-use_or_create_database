@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Connect to MongoDB and switch to the database 'my_db'
+echo 'use my_db' | mongo
