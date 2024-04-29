@@ -1,4 +1,2 @@
-#!/bin/bash
-
-# Start the MongoDB shell and execute the 'show dbs' command
-echo 'show dbs' | mongo
+//Write a script that lists all databases in MongoDB.
+show dbs

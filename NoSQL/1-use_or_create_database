@@ -1,4 +1,2 @@
-#!/bin/bash
-
-# Connect to MongoDB and switch to the database 'my_db'
-echo 'use my_db' | mongo
+//Write a script that creates or uses the database my_db
+use my_db
