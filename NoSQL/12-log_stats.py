@@ -1,10 +1,7 @@
 #!/usr/bin/env python3
-"""
-returns the list of school having a specific topic
-"""
+"""Provides some stats about Nginx logs stored in MongoDB"""
 
 from pymongo import MongoClient
-
 
 if __name__ == "__main__":
     """Provides stats about Nginx logs"""
