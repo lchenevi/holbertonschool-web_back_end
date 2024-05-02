@@ -2,6 +2,6 @@
 """Simple helper function"""
 
 
-def index_range(page: int, page_size: int) -> Tuple[int, int]:
-    """Return tuple containing pagination start index and end index."""
-    return ((page_size * (page - 1)), page_size * page)
+def index_range(page: int, page_size: int) -> tuple:
+    """Return a tuple of size two containing a start index and an end index"""
+    return ((page - 1) * page_size, page * page_size)
