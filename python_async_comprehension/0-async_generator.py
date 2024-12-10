@@ -1,12 +1,15 @@
 #!/usr/bin/env python3
-"""Asynchronously generates random numbers."""
+""" Contient la méthode asynchrone async_generator"""
+
+
 import asyncio
 import random
 from typing import AsyncGenerator
 
 
 async def async_generator() -> AsyncGenerator[float, None]:
-    """Asynchronously generates random numbers."""
+    """Contient une coroutine qui génère 10x des nombres aléatoires de [0, 10[
+        toutes les secondes"""
 
     for _ in range(0, 10):
         await asyncio.sleep(1)
