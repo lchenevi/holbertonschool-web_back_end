@@ -1,3 +1,5 @@
+// create a small HTTP server using Express module
+
 const express = require('express');
 
 const app = express();
